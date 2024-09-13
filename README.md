@@ -1,31 +1,15 @@
-# Project
+# 🎥 Real-Time Video Feed Analyzer with Machine Learning
 
-## Project requirements
+## Overview
+This project is a real-time video feed analyzer powered by a **Random Forest Classifier**. The backend is built with **Python** to handle video analysis, while the frontend uses **Next.js**, **Typescript**, and **Tailwind CSS** for a responsive user interface. The system processes video feeds and logs analysis results in real time using WebSocket for seamless communication between the frontend and backend.
 
-- `Project requirements.pdf`: This pdf file contains the design elements of the website, and the details of the content of each page.
+## Key Features:
+- **Real-Time Video Analysis**: Utilizes a **Random Forest Classifier** to analyze video feeds in real time.
+- **WebSocket Integration**: Real-time logging and communication between frontend and backend.
+- **Responsive Frontend**: Built with **Next.js**, **Typescript**, and **Tailwind CSS** for a smooth, user-friendly experience.
+- **Python Backend**: Processes video feeds and runs the machine learning model.
 
-## Project requirements
-
-- 'DataSet.csv': contains the login information for the login page
-
-## Video analysis
-
-This section includes the following files:
-
-- `Body_language.pdf`: A PDF document detailing the body language analysis program, it's not necessary to read it but helpful if you run into some problems .
-- `Final_body_language_decoder.py`: Python script for decoding body language, it takes a video(path of the video) as an input and output the same video in slowmotion showing all detection that took places, and at the end tell the user the proportions of each body language type.
-- `RandomForestClassifie.pkl`: Pre-trained RandomForest classifier model, which is a machine learning model
-
-## Voice analysis
-
-This section includes the following files:
-
-- `Final_voice_recognition_and_analysis.py`: Python script for voice recognition and analysis, it takes the same video as an input(path of the video), it extracts the audio and analyses it and prints the results.
-
-## Additional note
-- Feel free to use other related picture if some of the ones I provided get pixelated in a high scale.
-- Make the website more esthetic cause the exemple I provided for the wireframe is just a sketch.
-
-## Good luck
-
-
+## Tech Stack:
+- **Frontend**: Next.js, Typescript, Tailwind CSS
+- **Backend**: Python, Random Forest Classifier
+- **Communication**: WebSocket for real-time updates
